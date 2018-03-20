@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Crystals Collector!</h1>
+    <div class="inst">
+
+        <style>
+            
+        strong { 
+            font-weight: bold;
+        }
+    </style>
+
+        <p><strong>You will be given a random number at the start of the game.</strong></p><br>
+        <p><strong>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</strong></p><br>
+        <p><strong>You win the game by matching your total score to random number, you lose the game if your total score goes above
+            the random number</strong></p><br>
+        <p><strong>The value of each crystal is hidden from you until you click on it.</strong></p><br>
+        <p><strong>Each time when the game starts, the game will change the value of each crystal.</strong></p><br>
+
+    </div>
+
+    <div id="random"></div>
+
+    <div id="winLose">
+        Win: <span id="wins"></span> <br> 
+        Losses: <span id="losses"></span> <br> 
+    </div>
+
+    <div id="images">
+
+        <img src="assets/images/gem1.jpg" id="gem1" class="gemBtn">
+        <img src="assets/images/diamond1.jpg" id="gem2" class="gemBtn">
+        <img src="assets/images/ruby1.jpg" id="gem3" class="gemBtn">
+        <img src="assets/images/sapphire.jpg" id="gem4" class="gemBtn">
+
+    </div>
+
+    <div id="yourScore">Your Score Is: </div>
+
+    <div id="finalScore"></div>
+
+    <script src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
